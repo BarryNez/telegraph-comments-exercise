@@ -47,3 +47,4 @@ async function renderComments() {
 
 renderComments();
 
+//todo add date to post
