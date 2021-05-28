@@ -1,0 +1,23 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 12fr;
+	grid-template-rows: auto;
+	grid-gap: 10px;
+}
+
+.grid-item {
+	padding: 20px;
+	margin-left: 0;
+	grid-column-start: 1;
+}
+
+@media (min-width: 768px) {
+	.grid-container {
+		grid-template-columns: 2fr 6fr 4fr;
+	}
+
+	.grid-item {
+		padding: 20px;
+		grid-column-start: 2;
+	}
+}

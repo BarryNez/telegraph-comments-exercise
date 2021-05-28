@@ -1,2 +1,5 @@
 @import 'core/reset.css';
+@import 'elements/comments.css';
+@import 'elements/grid.css';
 @import 'elements/site-logo.css';
+
